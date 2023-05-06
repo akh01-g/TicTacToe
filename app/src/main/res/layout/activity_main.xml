@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="X score: "
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/tvXScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="O score: "
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/tvOScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="30sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:backgroundTint="@color/red"
+            android:src="@drawable/ic_refresh"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp">
+
+        <Button
+            android:id="@+id/btn_00"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:backgroundTint="@color/red"
+
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_01"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:backgroundTint="@color/red"
+
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_02"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:backgroundTint="@color/red"
+
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    >
+
+        <Button
+            android:id="@+id/btn_10"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:backgroundTint="@color/red"
+
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_11"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:backgroundTint="@color/red"
+
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_12"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:backgroundTint="@color/red"
+
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_20"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:backgroundTint="@color/red"
+
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_21"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:backgroundTint="@color/red"
+
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btn_22"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:backgroundTint="@color/red"
+
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
